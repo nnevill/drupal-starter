@@ -18,12 +18,15 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  gizra_custom: 0
   help: 0
   history: 0
   image: 0
   link: 0
   menu_ui: 0
   node: 0
+  og: 0
+  og_ui: 0
   options: 0
   page_cache: 0
   path: 0
