@@ -2,21 +2,15 @@
 
 namespace Drupal\gizra_custom\Plugin\Field\FieldFormatter;
 
-use Drupal\Core\Entity\EntityTypeManagerInterface;
-use Drupal\Core\Field\FieldDefinitionInterface;
 use Drupal\Core\Field\FieldItemListInterface;
-use Drupal\Core\Routing\RedirectDestinationTrait;
-use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Url;
 use Drupal\og\Og;
-use Drupal\og\OgAccessInterface;
 use Drupal\og\OgMembershipInterface;
 use Drupal\og\Plugin\Field\FieldFormatter\GroupSubscribeFormatter;
 use Drupal\user\EntityOwnerInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Plugin implementation for the OG subscribe formatter.
+ * Plugin implementation for the Gizra OG subscribe formatter.
  *
  * @FieldFormatter(
  *   id = "gizra_og_group_subscribe",
