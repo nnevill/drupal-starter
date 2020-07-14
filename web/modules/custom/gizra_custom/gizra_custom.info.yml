@@ -1,0 +1,7 @@
+name: 'Gizra custom'
+type: module
+description: 'Contains custom code.'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - og:og
