@@ -5,14 +5,12 @@ namespace Drupal\Tests\gizra_custom\ExistingSite;
 use weitzman\DrupalTestTraits\ExistingSiteBase;
 
 /**
- * Tests subscribe and un-subscribe formatter.
- *
- * @group Gizra
+ * Tests OG formatter.
  */
 class GizraGroupSubscribeFormatterTest extends ExistingSiteBase {
 
   /**
-   * Tests the formatter changes by user and membership.
+   * Tests if OG formatter displays correct text.
    */
   public function testFormatter() {
     // Creating group author.
