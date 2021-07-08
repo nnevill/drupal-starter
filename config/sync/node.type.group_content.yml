@@ -1,0 +1,17 @@
+uuid: 03243808-0e0a-40a6-b037-422345afc7a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Group content'
+type: group_content
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

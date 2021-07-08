@@ -1,0 +1,36 @@
+uuid: e1fbdde9-f514-455c-a252-a1991433e956
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.group.body
+    - node.type.group
+  module:
+    - gizra_custom
+    - text
+    - user
+id: node.group.default
+targetEntityType: node
+bundle: group
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  og_group:
+    weight: 0
+    type: gizra_og_group_subscribe
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
